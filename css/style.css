@@ -116,6 +116,7 @@ body {
     padding-left: calc(50% - 580px);
     padding-right: calc(50% - 580px);
 }
+
 .blocktwo {
     margin-top: 200px;
     margin-left: 387px;
@@ -124,7 +125,7 @@ body {
     display: flex;
     width: 1146px;
     height: 548px;
-   justify-content: center;
+    justify-content: center;
     gap: 128px;
 }
 
@@ -175,9 +176,70 @@ body {
     border-radius: 10px;
     background: #132035;
 
-    font-family: Open Sans SemiBold, serif ;
+    font-family: Open Sans SemiBold, serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 125%; 
+    line-height: 125%;
+}
+
+.blockfour {
+    margin-left: 388px;
+    display: flex;
+    width: 1146px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.textfour {
+    width: 1146px;
+    height: 492;
+}
+
+.textfour h1 {
+    width: 460px;
+    height: 78px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.textfour h2 {
+    margin-top: 40px;
+    width: 460px;
+    height: 78px;
+    color: var(--ffffff, #615c5c);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.textfour h3 {
+    margin-top: 20px;
+    width: 460px;
+    height: 52px;
+    color: var(--ffffff, #615c5c);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.textfour h4 {
+    margin-top: 20px;
+    width: 460px;
+    height: 52px;
+    color: var(--ffffff, #615c5c);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 }
