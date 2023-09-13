@@ -105,8 +105,53 @@ body {
     align-items: center;
 }
 
-.logos {
+.logo {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+.blocktwo {
+    margin-top: 200px;
+    margin-left: 387px;
+    margin-right: 387px;
+    margin-bottom: 200px;
+    display: flex;
+    width: 1146px;
+    height: 548px;
+   justify-content: center;
+    gap: 128px;
+}
+
+.text2 h1 {
+    width: 484px;
+    height: 104px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.text2 h2 {
+    width: 460px;
+    height: 78px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.knopka {
+    margin: 50px 0;
+    display: flex;
+    gap: 10px;
 }
