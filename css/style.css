@@ -28,7 +28,7 @@ body {
     margin-top: 260px;
     margin-left: 387px;
     margin-right: 387px;
-    margin-bottom: 3757px;
+    margin-bottom: 200px;
     display: flex;
     width: 1146px;
     justify-content: center;
@@ -103,4 +103,10 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
