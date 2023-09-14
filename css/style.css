@@ -117,7 +117,13 @@ body {
     padding-right: calc(50% - 580px);
 }
 
+
+
 .blocktwo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 200px;
     margin-left: 387px;
     margin-right: 387px;
